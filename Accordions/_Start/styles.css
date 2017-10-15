@@ -19,3 +19,9 @@ button.accordion {
 button.accordion:hover {
   background: #ddd;
 }
+
+.accordion-content {
+  padding: 0 20px;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+}
