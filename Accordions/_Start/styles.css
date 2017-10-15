@@ -20,6 +20,13 @@ button.accordion:hover {
   background: #ddd;
 }
 
+button.accordion:after {
+  content: '\f055'; /*unicode for fa plus sign*/
+  font-family: "fontawesome";
+  font-size: 14px;
+  float: right;
+}
+
 .accordion-content {
   padding: 0 20px;
   border-left: 1px solid whitesmoke;
