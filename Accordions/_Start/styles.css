@@ -24,4 +24,6 @@ button.accordion:hover {
   padding: 0 20px;
   border-left: 1px solid whitesmoke;
   border-right: 1px solid whitesmoke;
+  max-height: 0;
+  overflow: hidden;
 }
