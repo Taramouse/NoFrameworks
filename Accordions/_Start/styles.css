@@ -16,7 +16,7 @@ button.accordion {
   transition: background-color 0.2s linear;
 }
 
-button.accordion:hover {
+button.accordion:hover, button.accordion.is-open {
   background: #ddd;
 }
 
@@ -25,6 +25,10 @@ button.accordion:after {
   font-family: "fontawesome";
   font-size: 14px;
   float: right;
+}
+
+button.accordion.is-open::after {
+  content: '\f056';
 }
 
 .accordion-content {
